@@ -1,0 +1,16 @@
+{
+  "name": "Qigong backend",
+  "version": "0.0.1",
+  "description": "Qigong backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "private": true
+}
