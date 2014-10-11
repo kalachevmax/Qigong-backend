@@ -1,1 +1,1 @@
-web-qigong: node index.js
+qigong: node index.js
