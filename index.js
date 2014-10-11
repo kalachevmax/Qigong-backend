@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 
 
-app.set('port', (process.env.PORT || 7001));
+app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 
@@ -19,6 +19,11 @@ var news = [
   {date: new Date(2014, 9, 10), address: 'Галерная, 37', text: 'Цигун - семинар для начинающих (подготовительный цигун)'},
   {date: new Date(2014, 9, 17), address: 'Галерная, 37', text: 'Цигун - семинар "Воин Духа"'}
 ];
+
+
+app.get('/', function(request, response) {
+  response.send('Hello');
+});
 
 
 app.get('/random-quote', function(request, response) {
