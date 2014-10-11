@@ -1,5 +1,8 @@
 {
   "name": "Qigong backend",
   "description": "Qigong backend",
-  "repository": "https://github.com/kalachevmax/qigong-backend"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kalachevmax/qigong-backend.git"
+  }
 }

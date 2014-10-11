@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Qigong backend",
   "main": "index.js",
+  "repository": "https://github.com/kalachevmax/qigong-backend.git",
   "scripts": {
     "start": "node index.js"
   },
