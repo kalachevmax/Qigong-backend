@@ -1,7 +1,7 @@
 {
-  "name": "Qigong backend",
+  "name": "qigong-backend",
   "version": "0.0.1",
-  "description": "Qigong backend",
+  "description": "qigong-backend",
   "main": "index.js",
   "repository": "https://github.com/kalachevmax/qigong-backend.git",
   "scripts": {
